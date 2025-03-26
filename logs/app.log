@@ -1,0 +1,4 @@
+2025-03-26T11:49:49.389Z [INFO]: GET /api/patients - Status: 404 - 3ms
+2025-03-26T11:49:57.319Z [INFO]: POST /patients - Status: 201 - 2ms
+2025-03-26T11:50:25.163Z [INFO]: POST /patients - Status: 201 - 2ms
+2025-03-26T11:50:58.480Z [INFO]: PATCH /patients/1/treat - Status: 200 - 1ms

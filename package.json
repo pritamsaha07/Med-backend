@@ -1,0 +1,23 @@
+{
+  "name": "er-queue-management",
+  "version": "1.0.0",
+  "description": "Emergency Room Queue Management API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "debug": "nodemon --inspect index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "joi": "^17.11.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^9.0.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^6.3.3"
+  }
+}
