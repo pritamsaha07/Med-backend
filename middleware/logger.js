@@ -9,7 +9,6 @@ const logger = (req, res, next) => {
     console.log("Request Body:", req.body);
   }
 
-  // Track response status
   res.on("finish", () => {
     console.log(`[${timestamp}] ${method} ${url} - ${res.statusCode}`);
   });
